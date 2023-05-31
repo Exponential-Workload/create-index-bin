@@ -1,0 +1,19 @@
+{
+  "name": "create-autoindex",
+  "version": "1.0.1",
+  "description": "Creates dark-themed nginx-styled index pages",
+  "main": "index.js",
+  "keywords": [
+    "index",
+    "serve"
+  ],
+  "author": "Expo",
+  "license": "MIT",
+  "dependencies": {
+    "@3xpo/create-index": "^1.1.1"
+  },
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
