@@ -32,6 +32,7 @@ jobs:
       - name: Build
         run: |
           npm install
+          npm install -g pkg
           ./build.sh
           chmod +x --recursive out
       - name: Cleanup node_modules
