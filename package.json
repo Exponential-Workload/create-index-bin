@@ -16,6 +16,10 @@
   "pkg": {
     "assets": [
       "node_modules/**/*"
+    ],
+    "scripts": [
+      "index.js",
+      "node_modules/**/*"
     ]
   },
   "scripts": {
