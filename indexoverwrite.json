@@ -1,7 +1,7 @@
 {
   "repository/": "https://github.com/Exponential-Workload/create-index-bin",
   ".github/": "_github/",
-  "test/": "test/",
+  "out/": "out/",
   "LICENSE": "LICENSE",
   "README": "README",
   "package.json": "package.json",
