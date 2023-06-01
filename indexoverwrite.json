@@ -1,0 +1,12 @@
+{
+  "repository/": "https://github.com/Exponential-Workload/create-index-bin",
+  ".github/": "_github/",
+  "test/": "test/",
+  "LICENSE": "LICENSE",
+  "README": "README",
+  "package.json": "package.json",
+  "pnpm-lock.yaml": "pnpm-lock.yaml",
+  "build.sh": "build.sh",
+  "index.js": "index.js",
+  "banner.png": "banner.png",
+}
