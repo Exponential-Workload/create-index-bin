@@ -2,17 +2,36 @@
   "name": "create-autoindex",
   "version": "1.0.1",
   "description": "Creates dark-themed nginx-styled index pages",
-  "main": "index.js",
   "keywords": [
     "index",
     "serve"
   ],
-  "author": "Expo",
   "license": "MIT",
-  "dependencies": {
-    "@3xpo/create-index": "latest"
-  },
+  "author": "Expo",
+  "main": "index.js",
   "bin": "index.js",
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "README"
+  ],
+  "scripts": {
+    "build": "./build.sh && node postbuild.mjs"
+  },
+  "dependencies": {
+    "@3xpo/create-index": "^1.3.10"
+  },
+  "devDependencies": {
+    "@3xpo/pkgmetatool": "^0.1.6",
+    "esbuild": "^0.20.2",
+    "pkg": "^5.8.1"
+  },
   "pkg": {
     "assets": [
       "node_modules/**/*"
@@ -21,8 +40,5 @@
       "index.js",
       "node_modules/**/*"
     ]
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
