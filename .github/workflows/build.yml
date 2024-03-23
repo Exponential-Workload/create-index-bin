@@ -34,7 +34,7 @@ jobs:
       - name: Build
         run: |
           npm install --omit=dev
-          npm install -g pkg
+          npm install -g pkg esbuild
           ./build.sh
           chmod +x --recursive out
       - name: Cleanup node_modules
