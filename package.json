@@ -1,6 +1,6 @@
 {
   "name": "create-autoindex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creates dark-themed nginx-styled index pages",
   "keywords": [
     "index",
